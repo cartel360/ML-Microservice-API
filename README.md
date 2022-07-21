@@ -48,3 +48,15 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Files 
+* `app.py`: This is the main file used to start the application itself.
+* `Dockerfile`: This file is used to create a Docker image.
+* `make_prediction.sh`: This file is used to run predictions by passing relevant data.
+* `Makefile`: This file is used to call the different commands.operations you can use.
+* `requirements.txt`: This file that lists all the dependencies the application needs.
+* `run_docker.sh`: This file is used to run the application in Docker.
+* `run_kubernetes.sh`: This file is used to run the application in Kubernetes.
+* `upload_docker.sh`: This file is used to upload the Docker image to Docker Hub.
+
+
