@@ -6,10 +6,15 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=cartel360/udacity-cloud-devops-project4
+
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login -u cartel360
+docker tag api $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
